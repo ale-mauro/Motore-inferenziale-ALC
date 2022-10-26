@@ -1,0 +1,375 @@
+@prefix ex: <http://example.org/> .
+
+<http://example.org/node#76>
+        ex:lables  "Food, Meat, VegetarianFood, (¬Food ⊔ ¬Person), ¬Meat,  ∀eats.⟂ ,  ∀loves.⟂ " .
+
+<http://example.org/node#48>
+        ex:lables  "Food, Person, Vegetarian, ( ∀eats.Food  ⊔  ∀eats.⟂ ), ( ∀loves.Food  ⊔  ∀loves.⟂ ), ¬Food, ¬Vegetable, ¬VegetarianFood,  ∃eats.Meat " .
+
+<http://example.org/node#9>
+        ex:lables  "Food, Person, Vegetarian, ((Food ⊓ ¬VegetarianFood) ⊔ ¬Meat), (¬Food ⊔ ¬Person), ( ∀eats.Food  ⊔  ∀eats.⟂ ), ( ∀loves.Food  ⊔  ∀loves.⟂ ), ¬Vegetable,  ∃eats.Meat " ;
+        ex:orEdge  <http://example.org/node#13> , <http://example.org/node#10> .
+
+<http://example.org/node#89>
+        ex:lables  "Food, Person, Vegetarian, ( ∀loves.Food  ⊔  ∀loves.⟂ ), ¬Person, ¬Vegetable, ¬VegetarianFood,  ∃eats.Meat ,  ∀eats.⟂ " .
+
+<http://example.org/node#104>
+        ex:existentialRule  <http://example.org/node#105> ;
+        ex:lables           "Person, Vegetarian, ¬Food, ¬Meat, ¬Vegetable, ¬VegetarianFood,  ∃eats.Meat ,  ∀eats.VegetarianFood ,  ∀eats.⟂ ,  ∀loves.⟂ " .
+
+<http://example.org/node#70>
+        ex:lables  "Food, Meat, VegetarianFood, (Person ⊔  ∀loves.⟂ ), ((Food ⊓ ¬VegetarianFood) ⊔ ¬Meat), (¬Food ⊔ ¬Person), ( ∀loves.Food  ⊔  ∀loves.⟂ ),  ∀eats.⟂ " ;
+        ex:orEdge  <http://example.org/node#74> , <http://example.org/node#71> .
+
+<http://example.org/node#42>
+        ex:lables  "Food, Person, Vegetarian, ¬Meat, ¬Person, ¬Vegetable,  ∃eats.Meat ,  ∀eats.VegetarianFood ,  ∀eats.⟂ ,  ∀loves.⟂ " .
+
+<http://example.org/node#14>
+        ex:lables  "Food, Person, Vegetarian, ( ∀eats.Food  ⊔  ∀eats.⟂ ), ( ∀loves.Food  ⊔  ∀loves.⟂ ), ¬Food, ¬Meat, ¬Vegetable,  ∃eats.Meat " .
+
+<http://example.org/node#3>
+        ex:lables  "Food, Person, Vegetarian, (VegetarianFood ⊔ ¬Vegetable), ((Food ⊓ ¬VegetarianFood) ⊔ ¬Meat), (¬Food ⊔ ¬Person), ( ∀eats.Food  ⊔  ∀eats.⟂ ), ( ∀loves.Food  ⊔  ∀loves.⟂ ),  ∃eats.Meat " ;
+        ex:orEdge  <http://example.org/node#9> , <http://example.org/node#4> .
+
+<http://example.org/node#83>
+        ex:lables  "Vegetarian, (Person ⊔  ∀loves.⟂ ), (VegetarianFood ⊔ ¬Vegetable), ((Food ⊓ ¬VegetarianFood) ⊔ ¬Meat), (¬Food ⊔ ¬Person), ( ∀loves.Food  ⊔  ∀loves.⟂ ), ¬VegetarianFood,  ∃eats.Meat ,  ∀eats.⟂ " ;
+        ex:orEdge  <http://example.org/node#97> , <http://example.org/node#84> .
+
+<http://example.org/node#55>
+        ex:lables  "Food, Meat, Person, VegetarianFood, ((Food ⊓ ¬VegetarianFood) ⊔ ¬Meat), (¬Food ⊔ ¬Person), ( ∀eats.Food  ⊔  ∀eats.⟂ ), ( ∀loves.Food  ⊔  ∀loves.⟂ )" ;
+        ex:orEdge  <http://example.org/node#57> , <http://example.org/node#56> .
+
+<http://example.org/node#27>
+        ex:lables  "Food, Person, Vegetarian, (¬Food ⊔ ¬Person), ( ∀loves.Food  ⊔  ∀loves.⟂ ), ¬Meat, ¬Vegetable,  ∃eats.Meat ,  ∀eats.⟂ " ;
+        ex:orEdge  <http://example.org/node#29> , <http://example.org/node#28> .
+
+<http://example.org/node#96>
+        ex:lables  "Person, Vegetarian, ( ∀loves.Food  ⊔  ∀loves.⟂ ), ¬Meat, ¬Person, ¬Vegetable, ¬VegetarianFood,  ∃eats.Meat ,  ∀eats.⟂ " .
+
+<http://example.org/node#68>
+        ex:lables  "Food, Meat, Person, VegetarianFood, (¬Food ⊔ ¬Person), ( ∀eats.Food  ⊔  ∀eats.⟂ ), ( ∀loves.Food  ⊔  ∀loves.⟂ ), ¬VegetarianFood" .
+
+<http://example.org/node#21>
+        ex:lables  "Food, Person, Vegetarian, VegetarianFood, ( ∀loves.Food  ⊔  ∀loves.⟂ ), ¬Food, ¬Meat,  ∃eats.Meat ,  ∀eats.⟂ " .
+
+<http://example.org/node#90>
+        ex:lables  "Person, Vegetarian, (¬Food ⊔ ¬Person), ( ∀loves.Food  ⊔  ∀loves.⟂ ), ¬Meat, ¬Vegetable, ¬VegetarianFood,  ∃eats.Meat ,  ∀eats.⟂ " ;
+        ex:orEdge  <http://example.org/node#96> , <http://example.org/node#91> .
+
+<http://example.org/node#62>
+        ex:lables  "Food, Meat, VegetarianFood, ((Food ⊓ ¬VegetarianFood) ⊔ ¬Meat), (¬Food ⊔ ¬Person),  ∀eats.⟂ ,  ∀loves.⟂ " ;
+        ex:orEdge  <http://example.org/node#64> , <http://example.org/node#63> .
+
+<http://example.org/node#34>
+        ex:lables  "Food, Vegetarian, VegetarianFood, ¬Food, ¬Meat,  ∃eats.Meat ,  ∀eats.⟂ ,  ∀loves.⟂ " .
+
+<http://example.org/node#75>
+        ex:lables  "Food, Meat, VegetarianFood, (¬Food ⊔ ¬Person), ¬VegetarianFood,  ∀eats.⟂ ,  ∀loves.⟂ " .
+
+<http://example.org/node#47>
+        ex:lables  "Food, Person, Vegetarian, (¬Food ⊔ ¬Person), ( ∀eats.Food  ⊔  ∀eats.⟂ ), ( ∀loves.Food  ⊔  ∀loves.⟂ ), ¬Vegetable, ¬VegetarianFood,  ∃eats.Meat " ;
+        ex:orEdge  <http://example.org/node#49> , <http://example.org/node#48> .
+
+<http://example.org/node#19>
+        ex:lables  "Food, Person, Vegetarian, VegetarianFood, (¬Food ⊔ ¬Person), ( ∀loves.Food  ⊔  ∀loves.⟂ ), ¬VegetarianFood,  ∃eats.Meat ,  ∀eats.⟂ " .
+
+<http://example.org/node#8>
+        ex:lables  "Food, Person, Vegetarian, VegetarianFood, ( ∀eats.Food  ⊔  ∀eats.⟂ ), ( ∀loves.Food  ⊔  ∀loves.⟂ ), ¬Meat, ¬Person,  ∃eats.Meat " .
+
+<http://example.org/node#88>
+        ex:lables  "Food, Person, Vegetarian, ( ∀loves.Food  ⊔  ∀loves.⟂ ), ¬Food, ¬Vegetable, ¬VegetarianFood,  ∃eats.Meat ,  ∀eats.⟂ " .
+
+<http://example.org/node#103>
+        ex:lables  "Vegetarian, (¬Food ⊔ ¬Person), ¬Meat, ¬Vegetable, ¬VegetarianFood,  ∃eats.Meat ,  ∀eats.⟂ ,  ∀loves.⟂ " ;
+        ex:orEdge  <http://example.org/node#106> , <http://example.org/node#104> .
+
+<http://example.org/node#41>
+        ex:lables  "Food, Vegetarian, ¬Food, ¬Meat, ¬Vegetable,  ∃eats.Meat ,  ∀eats.⟂ ,  ∀loves.⟂ " .
+
+<http://example.org/node#13>
+        ex:lables  "Food, Person, Vegetarian, (¬Food ⊔ ¬Person), ( ∀eats.Food  ⊔  ∀eats.⟂ ), ( ∀loves.Food  ⊔  ∀loves.⟂ ), ¬Meat, ¬Vegetable,  ∃eats.Meat " ;
+        ex:orEdge  <http://example.org/node#15> , <http://example.org/node#14> .
+
+<http://example.org/node#2>
+        ex:lables  "Food, Vegetarian, (Person ⊔  ∀eats.⟂ ), (Person ⊔  ∀loves.⟂ ), (VegetarianFood ⊔ ¬Vegetable), ((Food ⊓ ¬VegetarianFood) ⊔ ¬Meat), (¬Food ⊔ ¬Person), ( ∀eats.Food  ⊔  ∀eats.⟂ ), ( ∀loves.Food  ⊔  ∀loves.⟂ ),  ∃eats.Meat " ;
+        ex:orEdge  <http://example.org/node#16> , <http://example.org/node#3> .
+
+<http://example.org/node#82>
+        ex:lables  "Person, Vegetarian, ( ∀eats.Food  ⊔  ∀eats.⟂ ), ( ∀loves.Food  ⊔  ∀loves.⟂ ), ¬Meat, ¬Person, ¬Vegetable, ¬VegetarianFood,  ∃eats.Meat " .
+
+<http://example.org/node#54>
+        ex:lables  "Food, Meat, VegetarianFood, (Person ⊔  ∀eats.⟂ ), (Person ⊔  ∀loves.⟂ ), ((Food ⊓ ¬VegetarianFood) ⊔ ¬Meat), (¬Food ⊔ ¬Person), ( ∀eats.Food  ⊔  ∀eats.⟂ ), ( ∀loves.Food  ⊔  ∀loves.⟂ )" ;
+        ex:orEdge  <http://example.org/node#58> , <http://example.org/node#55> .
+
+<http://example.org/node#26>
+        ex:lables  "Food, Person, Vegetarian, ( ∀loves.Food  ⊔  ∀loves.⟂ ), ¬Person, ¬Vegetable, ¬VegetarianFood,  ∃eats.Meat ,  ∀eats.⟂ " .
+
+<http://example.org/node#95>
+        ex:lables  "Meat, VegetarianFood, ⟂, (((((VegetarianFood ⊔ ¬Vegetable) ⊓ ((Food ⊓ ¬VegetarianFood) ⊔ ¬Meat)) ⊓ (Food ⊔ ¬VegetarianFood)) ⊓ (¬Food ⊔ ¬Person)) ⊓ (((( ∀eats.Food  ⊔  ∀eats.⟂ ) ⊓ ( ∀loves.Food  ⊔  ∀loves.⟂ )) ⊓ (Person ⊔  ∀loves.⟂ )) ⊓ (Person ⊔  ∀eats.⟂ )))" .
+
+<http://example.org/node#67>
+        ex:lables  "Food, Meat, Person, VegetarianFood, ((Food ⊓ ¬VegetarianFood) ⊔ ¬Meat), (¬Food ⊔ ¬Person), ( ∀eats.Food  ⊔  ∀eats.⟂ ), ( ∀loves.Food  ⊔  ∀loves.⟂ )" ;
+        ex:orEdge  <http://example.org/node#69> , <http://example.org/node#68> .
+
+<http://example.org/node#39>
+        ex:lables  "Food, Person, Vegetarian, ¬Person, ¬Vegetable, ¬VegetarianFood,  ∃eats.Meat ,  ∀eats.VegetarianFood ,  ∀eats.⟂ ,  ∀loves.⟂ " .
+
+<http://example.org/node#20>
+        ex:lables  "Food, Person, Vegetarian, VegetarianFood, (¬Food ⊔ ¬Person), ( ∀loves.Food  ⊔  ∀loves.⟂ ), ¬Meat,  ∃eats.Meat ,  ∀eats.⟂ " ;
+        ex:orEdge  <http://example.org/node#22> , <http://example.org/node#21> .
+
+<http://example.org/node#61>
+        ex:lables  "Food, Meat, Person, VegetarianFood, (¬Food ⊔ ¬Person), ( ∀loves.Food  ⊔  ∀loves.⟂ ), ¬Meat,  ∀eats.⟂ " .
+
+<http://example.org/node#33>
+        ex:lables  "Food, Vegetarian, VegetarianFood, (¬Food ⊔ ¬Person), ¬Meat,  ∃eats.Meat ,  ∀eats.⟂ ,  ∀loves.⟂ " ;
+        ex:orEdge  <http://example.org/node#35> , <http://example.org/node#34> .
+
+<http://example.org/node#74>
+        ex:lables  "Food, Meat, VegetarianFood, ((Food ⊓ ¬VegetarianFood) ⊔ ¬Meat), (¬Food ⊔ ¬Person),  ∀eats.⟂ ,  ∀loves.⟂ " ;
+        ex:orEdge  <http://example.org/node#76> , <http://example.org/node#75> .
+
+<http://example.org/node#46>
+        ex:lables  "Person, Vegetarian, ((Food ⊓ ¬VegetarianFood) ⊔ ¬Meat), (¬Food ⊔ ¬Person), ( ∀eats.Food  ⊔  ∀eats.⟂ ), ( ∀loves.Food  ⊔  ∀loves.⟂ ), ¬Vegetable, ¬VegetarianFood,  ∃eats.Meat " ;
+        ex:orEdge  <http://example.org/node#50> , <http://example.org/node#47> .
+
+<http://example.org/node#18>
+        ex:lables  "Food, Person, Vegetarian, VegetarianFood, ((Food ⊓ ¬VegetarianFood) ⊔ ¬Meat), (¬Food ⊔ ¬Person), ( ∀loves.Food  ⊔  ∀loves.⟂ ),  ∃eats.Meat ,  ∀eats.⟂ " ;
+        ex:orEdge  <http://example.org/node#20> , <http://example.org/node#19> .
+
+<http://example.org/node#7>
+        ex:lables  "Food, Person, Vegetarian, VegetarianFood, ( ∀eats.Food  ⊔  ∀eats.⟂ ), ( ∀loves.Food  ⊔  ∀loves.⟂ ), ¬Food, ¬Meat,  ∃eats.Meat " .
+
+<http://example.org/node#87>
+        ex:lables  "Food, Person, Vegetarian, (¬Food ⊔ ¬Person), ( ∀loves.Food  ⊔  ∀loves.⟂ ), ¬Vegetable, ¬VegetarianFood,  ∃eats.Meat ,  ∀eats.⟂ " ;
+        ex:orEdge  <http://example.org/node#89> , <http://example.org/node#88> .
+
+<http://example.org/node#59>
+        ex:lables  "Food, Meat, Person, VegetarianFood, ((Food ⊓ ¬VegetarianFood) ⊔ ¬Meat), (¬Food ⊔ ¬Person), ( ∀loves.Food  ⊔  ∀loves.⟂ ),  ∀eats.⟂ " ;
+        ex:orEdge  <http://example.org/node#61> , <http://example.org/node#60> .
+
+<http://example.org/node#102>
+        ex:lables  "Food, Person, Vegetarian, ¬Person, ¬Vegetable, ¬VegetarianFood,  ∃eats.Meat ,  ∀eats.VegetarianFood ,  ∀eats.⟂ ,  ∀loves.⟂ " .
+
+<http://example.org/node#40>
+        ex:lables  "Food, Vegetarian, (¬Food ⊔ ¬Person), ¬Meat, ¬Vegetable,  ∃eats.Meat ,  ∀eats.⟂ ,  ∀loves.⟂ " ;
+        ex:orEdge  <http://example.org/node#42> , <http://example.org/node#41> .
+
+<http://example.org/node#12>
+        ex:lables  "Food, Person, Vegetarian, ( ∀eats.Food  ⊔  ∀eats.⟂ ), ( ∀loves.Food  ⊔  ∀loves.⟂ ), ¬Person, ¬Vegetable, ¬VegetarianFood,  ∃eats.Meat " .
+
+<http://example.org/node#1>
+        ex:lables  "Vegetarian, (Food ⊔ ¬VegetarianFood), (Person ⊔  ∀eats.⟂ ), (Person ⊔  ∀loves.⟂ ), (VegetarianFood ⊔ ¬Vegetable), ((Food ⊓ ¬VegetarianFood) ⊔ ¬Meat), (¬Food ⊔ ¬Person), ( ∀eats.Food  ⊔  ∀eats.⟂ ), ( ∀loves.Food  ⊔  ∀loves.⟂ ),  ∃eats.Meat " ;
+        ex:orEdge  <http://example.org/node#43> , <http://example.org/node#2> .
+
+<http://example.org/node#81>
+        ex:lables  "Meat, VegetarianFood, ⟂, (((((VegetarianFood ⊔ ¬Vegetable) ⊓ ((Food ⊓ ¬VegetarianFood) ⊔ ¬Meat)) ⊓ (Food ⊔ ¬VegetarianFood)) ⊓ (¬Food ⊔ ¬Person)) ⊓ (((( ∀eats.Food  ⊔  ∀eats.⟂ ) ⊓ ( ∀loves.Food  ⊔  ∀loves.⟂ )) ⊓ (Person ⊔  ∀loves.⟂ )) ⊓ (Person ⊔  ∀eats.⟂ )))" .
+
+<http://example.org/node#53>
+        ex:existentialRule  <http://example.org/node#54> ;
+        ex:lables           "Person, Vegetarian, ¬Food, ¬Meat, ¬Vegetable, ¬VegetarianFood,  ∃eats.Meat ,  ∀eats.Food ,  ∀eats.VegetarianFood ,  ∀loves.Food " .
+
+<http://example.org/node#25>
+        ex:lables  "Food, Person, Vegetarian, ( ∀loves.Food  ⊔  ∀loves.⟂ ), ¬Food, ¬Vegetable, ¬VegetarianFood,  ∃eats.Meat ,  ∀eats.⟂ " .
+
+<http://example.org/node#94>
+        ex:existentialRule  <http://example.org/node#95> ;
+        ex:lables           "Person, Vegetarian, ¬Food, ¬Meat, ¬Vegetable, ¬VegetarianFood,  ∃eats.Meat ,  ∀eats.VegetarianFood ,  ∀eats.⟂ ,  ∀loves.⟂ " .
+
+<http://example.org/node#66>
+        ex:lables  "Food, Meat, VegetarianFood, (Person ⊔  ∀eats.⟂ ), (Person ⊔  ∀loves.⟂ ), ((Food ⊓ ¬VegetarianFood) ⊔ ¬Meat), (¬Food ⊔ ¬Person), ( ∀eats.Food  ⊔  ∀eats.⟂ ), ( ∀loves.Food  ⊔  ∀loves.⟂ )" ;
+        ex:orEdge  <http://example.org/node#70> , <http://example.org/node#67> .
+
+<http://example.org/node#38>
+        ex:lables  "Food, Vegetarian, ¬Food, ¬Vegetable, ¬VegetarianFood,  ∃eats.Meat ,  ∀eats.⟂ ,  ∀loves.⟂ " .
+
+<http://example.org/node#79>
+        ex:lables  "Meat, VegetarianFood, ⟂, (((((VegetarianFood ⊔ ¬Vegetable) ⊓ ((Food ⊓ ¬VegetarianFood) ⊔ ¬Meat)) ⊓ (Food ⊔ ¬VegetarianFood)) ⊓ (¬Food ⊔ ¬Person)) ⊓ (((( ∀eats.Food  ⊔  ∀eats.⟂ ) ⊓ ( ∀loves.Food  ⊔  ∀loves.⟂ )) ⊓ (Person ⊔  ∀loves.⟂ )) ⊓ (Person ⊔  ∀eats.⟂ )))" .
+
+<http://example.org/node#60>
+        ex:lables  "Food, Meat, Person, VegetarianFood, (¬Food ⊔ ¬Person), ( ∀loves.Food  ⊔  ∀loves.⟂ ), ¬VegetarianFood,  ∀eats.⟂ " .
+
+<http://example.org/node#32>
+        ex:lables  "Food, Vegetarian, VegetarianFood, (¬Food ⊔ ¬Person), ¬VegetarianFood,  ∃eats.Meat ,  ∀eats.⟂ ,  ∀loves.⟂ " .
+
+<http://example.org/node#73>
+        ex:lables  "Food, Meat, Person, VegetarianFood, (¬Food ⊔ ¬Person), ( ∀loves.Food  ⊔  ∀loves.⟂ ), ¬Meat,  ∀eats.⟂ " .
+
+<http://example.org/node#45>
+        ex:lables  "Person, Vegetarian, VegetarianFood, ((Food ⊓ ¬VegetarianFood) ⊔ ¬Meat), (¬Food ⊔ ¬Person), ( ∀eats.Food  ⊔  ∀eats.⟂ ), ( ∀loves.Food  ⊔  ∀loves.⟂ ), ¬VegetarianFood,  ∃eats.Meat " .
+
+<http://example.org/node#17>
+        ex:lables  "Food, Person, Vegetarian, (VegetarianFood ⊔ ¬Vegetable), ((Food ⊓ ¬VegetarianFood) ⊔ ¬Meat), (¬Food ⊔ ¬Person), ( ∀loves.Food  ⊔  ∀loves.⟂ ),  ∃eats.Meat ,  ∀eats.⟂ " ;
+        ex:orEdge  <http://example.org/node#23> , <http://example.org/node#18> .
+
+<http://example.org/node#6>
+        ex:lables  "Food, Person, Vegetarian, VegetarianFood, (¬Food ⊔ ¬Person), ( ∀eats.Food  ⊔  ∀eats.⟂ ), ( ∀loves.Food  ⊔  ∀loves.⟂ ), ¬Meat,  ∃eats.Meat " ;
+        ex:orEdge  <http://example.org/node#8> , <http://example.org/node#7> .
+
+<http://example.org/node#86>
+        ex:lables  "Person, Vegetarian, ((Food ⊓ ¬VegetarianFood) ⊔ ¬Meat), (¬Food ⊔ ¬Person), ( ∀loves.Food  ⊔  ∀loves.⟂ ), ¬Vegetable, ¬VegetarianFood,  ∃eats.Meat ,  ∀eats.⟂ " ;
+        ex:orEdge  <http://example.org/node#90> , <http://example.org/node#87> .
+
+<http://example.org/node#58>
+        ex:lables  "Food, Meat, VegetarianFood, (Person ⊔  ∀loves.⟂ ), ((Food ⊓ ¬VegetarianFood) ⊔ ¬Meat), (¬Food ⊔ ¬Person), ( ∀loves.Food  ⊔  ∀loves.⟂ ),  ∀eats.⟂ " ;
+        ex:orEdge  <http://example.org/node#62> , <http://example.org/node#59> .
+
+<http://example.org/node#99>
+        ex:lables  "Vegetarian, ((Food ⊓ ¬VegetarianFood) ⊔ ¬Meat), (¬Food ⊔ ¬Person), ¬Vegetable, ¬VegetarianFood,  ∃eats.Meat ,  ∀eats.⟂ ,  ∀loves.⟂ " ;
+        ex:orEdge  <http://example.org/node#103> , <http://example.org/node#100> .
+
+<http://example.org/node#101>
+        ex:lables  "Food, Vegetarian, ¬Food, ¬Vegetable, ¬VegetarianFood,  ∃eats.Meat ,  ∀eats.⟂ ,  ∀loves.⟂ " .
+
+<http://example.org/node#11>
+        ex:lables  "Food, Person, Vegetarian, ( ∀eats.Food  ⊔  ∀eats.⟂ ), ( ∀loves.Food  ⊔  ∀loves.⟂ ), ¬Food, ¬Vegetable, ¬VegetarianFood,  ∃eats.Meat " .
+
+<http://example.org/node#80>
+        ex:existentialRule  <http://example.org/node#81> ;
+        ex:lables           "Person, Vegetarian, ¬Food, ¬Meat, ¬Vegetable, ¬VegetarianFood,  ∃eats.Meat ,  ∀eats.VegetarianFood ,  ∀eats.⟂ ,  ∀loves.⟂ " .
+
+<http://example.org/node#52>
+        ex:lables  "Person, Vegetarian, ( ∀loves.Food  ⊔  ∀loves.⟂ ), ¬Food, ¬Meat, ¬Vegetable, ¬VegetarianFood,  ∃eats.Meat ,  ∀eats.Food " ;
+        ex:orEdge  <http://example.org/node#65> , <http://example.org/node#53> .
+
+<http://example.org/node#24>
+        ex:lables  "Food, Person, Vegetarian, (¬Food ⊔ ¬Person), ( ∀loves.Food  ⊔  ∀loves.⟂ ), ¬Vegetable, ¬VegetarianFood,  ∃eats.Meat ,  ∀eats.⟂ " ;
+        ex:orEdge  <http://example.org/node#26> , <http://example.org/node#25> .
+
+<http://example.org/node#93>
+        ex:lables  "Meat, VegetarianFood, ⟂, (((((VegetarianFood ⊔ ¬Vegetable) ⊓ ((Food ⊓ ¬VegetarianFood) ⊔ ¬Meat)) ⊓ (Food ⊔ ¬VegetarianFood)) ⊓ (¬Food ⊔ ¬Person)) ⊓ (((( ∀eats.Food  ⊔  ∀eats.⟂ ) ⊓ ( ∀loves.Food  ⊔  ∀loves.⟂ )) ⊓ (Person ⊔  ∀loves.⟂ )) ⊓ (Person ⊔  ∀eats.⟂ )))" .
+
+<http://example.org/node#65>
+        ex:existentialRule  <http://example.org/node#66> ;
+        ex:lables           "Person, Vegetarian, ¬Food, ¬Meat, ¬Vegetable, ¬VegetarianFood,  ∃eats.Meat ,  ∀eats.Food ,  ∀eats.VegetarianFood ,  ∀loves.⟂ " .
+
+<http://example.org/node#37>
+        ex:lables  "Food, Vegetarian, (¬Food ⊔ ¬Person), ¬Vegetable, ¬VegetarianFood,  ∃eats.Meat ,  ∀eats.⟂ ,  ∀loves.⟂ " ;
+        ex:orEdge  <http://example.org/node#39> , <http://example.org/node#38> .
+
+<http://example.org/node#78>
+        ex:existentialRule  <http://example.org/node#79> ;
+        ex:lables           "Person, Vegetarian, ¬Food, ¬Meat, ¬Vegetable, ¬VegetarianFood,  ∃eats.Meat ,  ∀eats.VegetarianFood ,  ∀eats.⟂ ,  ∀loves.Food " .
+
+<http://example.org/node#106>
+        ex:lables  "Person, Vegetarian, ¬Meat, ¬Person, ¬Vegetable, ¬VegetarianFood,  ∃eats.Meat ,  ∀eats.VegetarianFood ,  ∀eats.⟂ ,  ∀loves.⟂ " .
+
+<http://example.org/node#31>
+        ex:lables  "Food, Vegetarian, VegetarianFood, ((Food ⊓ ¬VegetarianFood) ⊔ ¬Meat), (¬Food ⊔ ¬Person),  ∃eats.Meat ,  ∀eats.⟂ ,  ∀loves.⟂ " ;
+        ex:orEdge  <http://example.org/node#33> , <http://example.org/node#32> .
+
+<http://example.org/node#72>
+        ex:lables  "Food, Meat, Person, VegetarianFood, (¬Food ⊔ ¬Person), ( ∀loves.Food  ⊔  ∀loves.⟂ ), ¬VegetarianFood,  ∀eats.⟂ " .
+
+<http://example.org/node#44>
+        ex:lables  "Person, Vegetarian, (VegetarianFood ⊔ ¬Vegetable), ((Food ⊓ ¬VegetarianFood) ⊔ ¬Meat), (¬Food ⊔ ¬Person), ( ∀eats.Food  ⊔  ∀eats.⟂ ), ( ∀loves.Food  ⊔  ∀loves.⟂ ), ¬VegetarianFood,  ∃eats.Meat " ;
+        ex:orEdge  <http://example.org/node#46> , <http://example.org/node#45> .
+
+<http://example.org/node#16>
+        ex:lables  "Food, Vegetarian, (Person ⊔  ∀loves.⟂ ), (VegetarianFood ⊔ ¬Vegetable), ((Food ⊓ ¬VegetarianFood) ⊔ ¬Meat), (¬Food ⊔ ¬Person), ( ∀loves.Food  ⊔  ∀loves.⟂ ),  ∃eats.Meat ,  ∀eats.⟂ " ;
+        ex:orEdge  <http://example.org/node#30> , <http://example.org/node#17> .
+
+<http://example.org/node#5>
+        ex:lables  "Food, Person, Vegetarian, VegetarianFood, (¬Food ⊔ ¬Person), ( ∀eats.Food  ⊔  ∀eats.⟂ ), ( ∀loves.Food  ⊔  ∀loves.⟂ ), ¬VegetarianFood,  ∃eats.Meat " .
+
+<http://example.org/node#85>
+        ex:lables  "Person, Vegetarian, VegetarianFood, ((Food ⊓ ¬VegetarianFood) ⊔ ¬Meat), (¬Food ⊔ ¬Person), ( ∀loves.Food  ⊔  ∀loves.⟂ ), ¬VegetarianFood,  ∃eats.Meat ,  ∀eats.⟂ " .
+
+<http://example.org/node#57>
+        ex:lables  "Food, Meat, Person, VegetarianFood, (¬Food ⊔ ¬Person), ( ∀eats.Food  ⊔  ∀eats.⟂ ), ( ∀loves.Food  ⊔  ∀loves.⟂ ), ¬Meat" .
+
+<http://example.org/node#29>
+        ex:lables  "Food, Person, Vegetarian, ( ∀loves.Food  ⊔  ∀loves.⟂ ), ¬Meat, ¬Person, ¬Vegetable,  ∃eats.Meat ,  ∀eats.⟂ " .
+
+<http://example.org/node#98>
+        ex:lables  "Vegetarian, VegetarianFood, ((Food ⊓ ¬VegetarianFood) ⊔ ¬Meat), (¬Food ⊔ ¬Person), ¬VegetarianFood,  ∃eats.Meat ,  ∀eats.⟂ ,  ∀loves.⟂ " .
+
+<http://example.org/node#100>
+        ex:lables  "Food, Vegetarian, (¬Food ⊔ ¬Person), ¬Vegetable, ¬VegetarianFood,  ∃eats.Meat ,  ∀eats.⟂ ,  ∀loves.⟂ " ;
+        ex:orEdge  <http://example.org/node#102> , <http://example.org/node#101> .
+
+<http://example.org/node#10>
+        ex:lables  "Food, Person, Vegetarian, (¬Food ⊔ ¬Person), ( ∀eats.Food  ⊔  ∀eats.⟂ ), ( ∀loves.Food  ⊔  ∀loves.⟂ ), ¬Vegetable, ¬VegetarianFood,  ∃eats.Meat " ;
+        ex:orEdge  <http://example.org/node#12> , <http://example.org/node#11> .
+
+<http://example.org/node#51>
+        ex:lables  "Person, Vegetarian, ( ∀eats.Food  ⊔  ∀eats.⟂ ), ( ∀loves.Food  ⊔  ∀loves.⟂ ), ¬Food, ¬Meat, ¬Vegetable, ¬VegetarianFood,  ∃eats.Meat " ;
+        ex:orEdge  <http://example.org/node#77> , <http://example.org/node#52> .
+
+<http://example.org/node#23>
+        ex:lables  "Food, Person, Vegetarian, ((Food ⊓ ¬VegetarianFood) ⊔ ¬Meat), (¬Food ⊔ ¬Person), ( ∀loves.Food  ⊔  ∀loves.⟂ ), ¬Vegetable,  ∃eats.Meat ,  ∀eats.⟂ " ;
+        ex:orEdge  <http://example.org/node#27> , <http://example.org/node#24> .
+
+<http://example.org/node#92>
+        ex:existentialRule  <http://example.org/node#93> ;
+        ex:lables           "Person, Vegetarian, ¬Food, ¬Meat, ¬Vegetable, ¬VegetarianFood,  ∃eats.Meat ,  ∀eats.VegetarianFood ,  ∀eats.⟂ ,  ∀loves.Food " .
+
+<http://example.org/node#64>
+        ex:lables  "Food, Meat, VegetarianFood, (¬Food ⊔ ¬Person), ¬Meat,  ∀eats.⟂ ,  ∀loves.⟂ " .
+
+<http://example.org/node#36>
+        ex:lables  "Food, Vegetarian, ((Food ⊓ ¬VegetarianFood) ⊔ ¬Meat), (¬Food ⊔ ¬Person), ¬Vegetable,  ∃eats.Meat ,  ∀eats.⟂ ,  ∀loves.⟂ " ;
+        ex:orEdge  <http://example.org/node#40> , <http://example.org/node#37> .
+
+<http://example.org/node#77>
+        ex:lables  "Person, Vegetarian, ( ∀loves.Food  ⊔  ∀loves.⟂ ), ¬Food, ¬Meat, ¬Vegetable, ¬VegetarianFood,  ∃eats.Meat ,  ∀eats.⟂ " ;
+        ex:orEdge  <http://example.org/node#80> , <http://example.org/node#78> .
+
+<http://example.org/node#49>
+        ex:lables  "Food, Person, Vegetarian, ( ∀eats.Food  ⊔  ∀eats.⟂ ), ( ∀loves.Food  ⊔  ∀loves.⟂ ), ¬Person, ¬Vegetable, ¬VegetarianFood,  ∃eats.Meat " .
+
+<http://example.org/node#105>
+        ex:lables  "Meat, VegetarianFood, ⟂, (((((VegetarianFood ⊔ ¬Vegetable) ⊓ ((Food ⊓ ¬VegetarianFood) ⊔ ¬Meat)) ⊓ (Food ⊔ ¬VegetarianFood)) ⊓ (¬Food ⊔ ¬Person)) ⊓ (((( ∀eats.Food  ⊔  ∀eats.⟂ ) ⊓ ( ∀loves.Food  ⊔  ∀loves.⟂ )) ⊓ (Person ⊔  ∀loves.⟂ )) ⊓ (Person ⊔  ∀eats.⟂ )))" .
+
+<http://example.org/node#30>
+        ex:lables  "Food, Vegetarian, (VegetarianFood ⊔ ¬Vegetable), ((Food ⊓ ¬VegetarianFood) ⊔ ¬Meat), (¬Food ⊔ ¬Person),  ∃eats.Meat ,  ∀eats.⟂ ,  ∀loves.⟂ " ;
+        ex:orEdge  <http://example.org/node#36> , <http://example.org/node#31> .
+
+<http://example.org/node#71>
+        ex:lables  "Food, Meat, Person, VegetarianFood, ((Food ⊓ ¬VegetarianFood) ⊔ ¬Meat), (¬Food ⊔ ¬Person), ( ∀loves.Food  ⊔  ∀loves.⟂ ),  ∀eats.⟂ " ;
+        ex:orEdge  <http://example.org/node#73> , <http://example.org/node#72> .
+
+<http://example.org/node#43>
+        ex:lables  "Vegetarian, (Person ⊔  ∀eats.⟂ ), (Person ⊔  ∀loves.⟂ ), (VegetarianFood ⊔ ¬Vegetable), ((Food ⊓ ¬VegetarianFood) ⊔ ¬Meat), (¬Food ⊔ ¬Person), ( ∀eats.Food  ⊔  ∀eats.⟂ ), ( ∀loves.Food  ⊔  ∀loves.⟂ ), ¬VegetarianFood,  ∃eats.Meat " ;
+        ex:orEdge  <http://example.org/node#83> , <http://example.org/node#44> .
+
+<http://example.org/node#15>
+        ex:lables  "Food, Person, Vegetarian, ( ∀eats.Food  ⊔  ∀eats.⟂ ), ( ∀loves.Food  ⊔  ∀loves.⟂ ), ¬Meat, ¬Person, ¬Vegetable,  ∃eats.Meat " .
+
+<http://example.org/node#4>
+        ex:lables  "Food, Person, Vegetarian, VegetarianFood, ((Food ⊓ ¬VegetarianFood) ⊔ ¬Meat), (¬Food ⊔ ¬Person), ( ∀eats.Food  ⊔  ∀eats.⟂ ), ( ∀loves.Food  ⊔  ∀loves.⟂ ),  ∃eats.Meat " ;
+        ex:orEdge  <http://example.org/node#6> , <http://example.org/node#5> .
+
+<http://example.org/node#84>
+        ex:lables  "Person, Vegetarian, (VegetarianFood ⊔ ¬Vegetable), ((Food ⊓ ¬VegetarianFood) ⊔ ¬Meat), (¬Food ⊔ ¬Person), ( ∀loves.Food  ⊔  ∀loves.⟂ ), ¬VegetarianFood,  ∃eats.Meat ,  ∀eats.⟂ " ;
+        ex:orEdge  <http://example.org/node#86> , <http://example.org/node#85> .
+
+<http://example.org/node#56>
+        ex:lables  "Food, Meat, Person, VegetarianFood, (¬Food ⊔ ¬Person), ( ∀eats.Food  ⊔  ∀eats.⟂ ), ( ∀loves.Food  ⊔  ∀loves.⟂ ), ¬VegetarianFood" .
+
+<http://example.org/node#28>
+        ex:lables  "Food, Person, Vegetarian, ( ∀loves.Food  ⊔  ∀loves.⟂ ), ¬Food, ¬Meat, ¬Vegetable,  ∃eats.Meat ,  ∀eats.⟂ " .
+
+<http://example.org/node#97>
+        ex:lables  "Vegetarian, (VegetarianFood ⊔ ¬Vegetable), ((Food ⊓ ¬VegetarianFood) ⊔ ¬Meat), (¬Food ⊔ ¬Person), ¬VegetarianFood,  ∃eats.Meat ,  ∀eats.⟂ ,  ∀loves.⟂ " ;
+        ex:orEdge  <http://example.org/node#99> , <http://example.org/node#98> .
+
+<http://example.org/node#69>
+        ex:lables  "Food, Meat, Person, VegetarianFood, (¬Food ⊔ ¬Person), ( ∀eats.Food  ⊔  ∀eats.⟂ ), ( ∀loves.Food  ⊔  ∀loves.⟂ ), ¬Meat" .
+
+<http://example.org/node#50>
+        ex:lables  "Person, Vegetarian, (¬Food ⊔ ¬Person), ( ∀eats.Food  ⊔  ∀eats.⟂ ), ( ∀loves.Food  ⊔  ∀loves.⟂ ), ¬Meat, ¬Vegetable, ¬VegetarianFood,  ∃eats.Meat " ;
+        ex:orEdge  <http://example.org/node#82> , <http://example.org/node#51> .
+
+<http://example.org/node#22>
+        ex:lables  "Food, Person, Vegetarian, VegetarianFood, ( ∀loves.Food  ⊔  ∀loves.⟂ ), ¬Meat, ¬Person,  ∃eats.Meat ,  ∀eats.⟂ " .
+
+<http://example.org/node#91>
+        ex:lables  "Person, Vegetarian, ( ∀loves.Food  ⊔  ∀loves.⟂ ), ¬Food, ¬Meat, ¬Vegetable, ¬VegetarianFood,  ∃eats.Meat ,  ∀eats.⟂ " ;
+        ex:orEdge  <http://example.org/node#94> , <http://example.org/node#92> .
+
+<http://example.org/node#63>
+        ex:lables  "Food, Meat, VegetarianFood, (¬Food ⊔ ¬Person), ¬VegetarianFood,  ∀eats.⟂ ,  ∀loves.⟂ " .
+
+<http://example.org/node#35>
+        ex:lables  "Food, Person, Vegetarian, VegetarianFood, ¬Meat, ¬Person,  ∃eats.Meat ,  ∀eats.VegetarianFood ,  ∀eats.⟂ ,  ∀loves.⟂ " .

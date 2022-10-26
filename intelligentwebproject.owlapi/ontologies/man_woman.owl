@@ -1,0 +1,33 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+Prefix: t: <http://owl.api.tutorial#>
+
+
+
+Ontology: <http://owl.api.tutorial>
+
+Class: t:Person
+
+Class: t:Female
+
+Class: t:Woman
+	EquivalentTo: t:Person AND t:Female
+
+Class: t:Man
+	EquivalentTo: t:Person AND not (t:Woman)
+
+ObjectProperty: t:hasChild
+	Domain:
+		t:Person
+	Range:
+		t:Person
+	Characteristics: Irreflexive
+
+ObjectProperty: t:hasWife
+	Domain:
+		t:Man
+	Range:
+		t:Woman

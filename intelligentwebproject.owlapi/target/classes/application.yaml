@@ -1,7 +1,0 @@
-application:
-  name: intelligentwebproject.owlapi
-  package: owl.cs.intelligentwebproject.owlapi
-spring:
-  application:
-    name: ${application.name}
-
